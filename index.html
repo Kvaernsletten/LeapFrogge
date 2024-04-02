@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frogge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="pictures" class="pictures">
+        <img id="correct" class ="correct transparent" src ="Correct.png" alt="Correct!">
+        <img id="wrong" class ="wrong transparent" src ="Wrong.png" alt="Wrong!">
+        <img id="speechBubble" class="speechBubble" src="speechBubble.png" alt="Speechbub">
+        <img id="frogge" class="frogge" src="frogge.png" alt="frogge">
+    </div>
+    <div class="container">
+        <div class="leftCenter">
+            <div id="timer" class="timer">Time: </div>
+            <div id="points" class="points">Score: </div>
+        </div>
+        <div class="rightCenter">
+        <div id="topNum" class="numDiv"></div>
+        <input id="inputAnswer" class="inputAnswer" type="text">
+        <div id="bottomNum" class="numDiv"></div>
+        <div class="inputButtons">
+            <button id="higherButton" onclick="higherButton()">Higher than</button>
+            <button id="lowerButton" onclick="lowerButton()">Lower than</button>
+            <button id="equalButton" onclick="equalButton()">Equal to</button>
+        </div>
+    </div>
+    </div>
+
+    <div id="answerButtons" class="answerButtons">
+    <button id="submit" class="submit" onclick="startGame()">Start</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
