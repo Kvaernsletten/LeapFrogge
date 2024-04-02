@@ -46,7 +46,6 @@ function higherButton() {
     else if(submitButton == true && topNum.innerHTML <= bottomNum.innerHTML){
         Wrong();
     }
-    console.log("hello")
 }
 
 function lowerButton() {
