@@ -40,32 +40,30 @@ function randomNumbers() {
 }
 
 function higherButton() {
-    inputAnswer.value = ">"
-    if (submitButton == true && topNum.innerHTML > bottomNum.innerHTML && inputAnswer.value == ">") {
+    if (submitButton == true && topNum.innerHTML > bottomNum.innerHTML) {
         Correct();
     }
-    else if(submitButton == true && topNum.innerHTML <= bottomNum.innerHTML && inputAnswer.value == ">"){
+    else if(submitButton == true && topNum.innerHTML <= bottomNum.innerHTML){
         Wrong();
     }
+    console.log("hello")
 }
 
 function lowerButton() {
-    inputAnswer.value = "<"
-    if (submitButton == true && topNum.innerHTML < bottomNum.innerHTML && inputAnswer.value == "<") {
+    if (submitButton == true && topNum.innerHTML < bottomNum.innerHTML) {
         correctAnswer = true;
         Correct();
     }
-    else if(submitButton == true && topNum.innerHTML >= bottomNum.innerHTML && inputAnswer.value == "<"){
+    else if(submitButton == true && topNum.innerHTML >= bottomNum.innerHTML){
         Wrong();
     }
 }
 
 function equalButton() {
-    inputAnswer.value = "="
-    if (submitButton == true && topNum.innerHTML == bottomNum.innerHTML && inputAnswer.value == "=") {
+    if (submitButton == true && topNum.innerHTML == bottomNum.innerHTML) {
         Correct();
     }
-    else if(submitButton == true && topNum.innerHTML != bottomNum.innerHTML && inputAnswer.value == "="){
+    else if(submitButton == true && topNum.innerHTML != bottomNum.innerHTML){
         Wrong();
     }
 }
