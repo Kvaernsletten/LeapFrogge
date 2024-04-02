@@ -120,9 +120,15 @@ html{
     margin-bottom: 10px;
 }
 .text{
-    font-size: 200%;
+    font-size: 300%;
 }
 
 .topNum, .bottomNum{
     font-size: 300%;
+}
+
+button{
+    background-color: rgb(43, 29, 48);
+    color: rgb(211, 182, 16);
+    cursor: pointer;
 }
