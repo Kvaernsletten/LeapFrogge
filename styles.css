@@ -13,7 +13,7 @@ html{
 }
 
 .points, .timer{
-    font-size: 300%;
+    font-size: 200%;
     font-weight: 800;
 }
 .frogge{
@@ -38,7 +38,7 @@ html{
     background-color: rgba(106, 81, 117, 0.719);
 }
 .numDiv{
-    font-size: 200%;
+    font-size: 300%;
     font-weight: 800;
 }
 .inputAnswer{
@@ -58,8 +58,9 @@ html{
 }
 .inputButtons{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 250px;
+    width: 200px;
     height: 30px;
     margin-top: 5px;
     margin-left: 5px;
@@ -93,7 +94,7 @@ html{
     height: 200px;
     margin-top: 90px;
     margin-right: 80px;
-    margin-top: 6%;
+    margin-top: 70px;
     font-weight: 800;
     position: absolute;
 }
@@ -109,4 +110,19 @@ html{
 }
 .rightCenter{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.numbers{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.text{
+    font-size: 200%;
+}
+
+.topNum, .bottomNum{
+    font-size: 300%;
 }
